@@ -25,7 +25,7 @@ public class MainUI extends JFrame implements ActionListener{
     //Creating Constructor
     MainUI(){
         setTitle("Calculator");
-        setIconImage(new ImageIcon("image\\calc-preview.png").getImage());
+        setIconImage(new ImageIcon("image\\calc-preview.png").getImage()); //calculator image
         setSize(400,560);
         setVisible(true);
         setLocationRelativeTo(null);
